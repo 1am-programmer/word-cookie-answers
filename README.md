@@ -14,23 +14,65 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Word Cookie Answers
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Word Cookie Answers is a website built with Next.js that provides solutions for the popular word puzzle game, Word Cookies. Players can easily find answers to various levels of the game, making their gameplay experience more enjoyable.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Level Navigation**: Navigate through different levels of Word Cookies to find solutions.
+- **Search Functionality**: Quickly find answers by searching for specific levels or keywords, after you fill the form
+- **Responsive Design**: The website is responsive and works seamlessly across desktop, tablet, and mobile devices.
+- **Dynamic Routing**: Utilizes Next.js dynamic routing to generate pages for each level.
+- **UI**: Desinged using Shadcn/ ui and React icons
+- **Performance**: Built with performance in mind using Next.js features like automatic code splitting and server-side rendering.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+git clone https://github.com/1am-programmer/word-cookie-answers.git
+```
 
-## Deploy on Vercel
+2. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+# or
+yarn install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+## Usage
+
+- Input splitted words into the serach bar to get re-arranged word
+- Fill in the input form, as in length, Word first letter and last letter
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- Built with [Next.js](https://nextjs.org/).
+
