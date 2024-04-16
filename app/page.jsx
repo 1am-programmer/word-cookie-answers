@@ -18,7 +18,7 @@ export default function Home() {
 
     <div className="bg-emerald-500 h-screen text-center text-white ">
       <h1 className="font-bold text-3xl pt-4">Word Cookies Answers</h1>
-      <p>Enter your Letters</p>
+      <p className="text-[30px] px-4">Enter your Letters</p>
 
       <div className="flex justify-center text-black">
         <CiSearch className="translate-x-12 translate-y-3 text-gray-500 text-[30px]" />
